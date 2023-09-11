@@ -1,0 +1,16 @@
+p {
+    height: 50px;
+    width: 150px;
+    margin: 0 20px;
+    border-radius: 8px;
+    background-color: rgb(1, 16, 82);
+    text-align: center;
+    line-height: 50px;
+    font-weight: 800;
+    color: white;
+    transition: all 0.5s;
+}
+
+p:hover{
+    transform: scale(1.1);
+}

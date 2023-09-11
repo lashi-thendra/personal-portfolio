@@ -1,4 +1,22 @@
 header{
-    height: 50px;
-    background-color: blue;
+    padding: 30px;
+    height: 10vh;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    float: right;
+    /* background-color: aqua; */
+}
+
+#img{
+    background-image: url(../assets/img.png);
+    height: 90vh;
+    background-repeat: no-repeat;
+    /* background-color: yellow; */
+    width: 100vw;
+    background-size: contain;
+    background-position: right bottom;
 }
