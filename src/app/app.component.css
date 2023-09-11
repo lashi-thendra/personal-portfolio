@@ -9,14 +9,8 @@ header{
 main{
     float: right;
     /* background-color: aqua; */
+    height: 90vh;
+    width: 100vw;
+    position: relative;
 }
 
-#img{
-    background-image: url(../assets/img.png);
-    height: 90vh;
-    background-repeat: no-repeat;
-    /* background-color: yellow; */
-    width: 100vw;
-    background-size: contain;
-    background-position: right bottom;
-}

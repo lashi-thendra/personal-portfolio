@@ -87,10 +87,12 @@ table {
 * {
     font-family: 'Inter', sans-serif;
     box-sizing: border-box;
+    user-select: none;
 }
 
 body{
-    background-image: linear-gradient(rgb(31, 192, 241),rgb(1, 1, 185));
+    background-image: linear-gradient(rgb(4, 0, 56),rgb(0, 224, 231));
     background-repeat: no-repeat;
     height: 100vh;
 }
+

@@ -1,0 +1,36 @@
+#img{
+    background-image: url(../../assets/img.png);
+    height: 90vh;
+    background-repeat: no-repeat;
+    /* background-color: yellow; */
+    width: 100vw;
+    background-size: contain;
+    background-position: right bottom;
+}
+
+#tube{
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    top: 80px;
+    right: 350px;
+    background-image: url(../../assets/float.png);
+    background-repeat: no-repeat;
+    /* background-color: yellow; */
+    background-size: contain;
+    background-position: center;
+    animation: floatAnimation 5s infinite ease-in-out;
+}
+
+
+@keyframes floatAnimation {
+0% {
+    transform: translateY(0);
+}
+50% {
+    transform: translateY(-20px);
+}
+100% {
+    transform: translateY(0);
+}
+}

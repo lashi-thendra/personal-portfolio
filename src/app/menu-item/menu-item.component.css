@@ -1,16 +1,24 @@
 p {
-    height: 50px;
+    height: 30px;
     width: 150px;
     margin: 0 20px;
     border-radius: 8px;
-    background-color: rgb(1, 16, 82);
+    background-color: rgb(77, 187, 206);
+    /* background-image: linear-gradient(rgb(182, 182, 182) , rgb(0, 0, 0)); */
     text-align: center;
-    line-height: 50px;
+    line-height: 30px;
     font-weight: 800;
-    color: white;
-    transition: all 0.5s;
+    color: rgb(0, 0, 0);
+    transition: all 0.1s;
 }
 
 p:hover{
-    transform: scale(1.1);
+    background-color: rgb(4, 211, 211);
+    box-shadow: 0 0 10px 5px #ffffff; 
+}
+
+p:active{
+    background-color: #025e88;
+    box-shadow: 0 0 8px 3px #ffffff; 
+    
 }
