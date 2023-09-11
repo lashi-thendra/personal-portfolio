@@ -9,7 +9,6 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = "Porfolio";
   titles  = [
-    "Home",
     "Projects",
     "Teck Stack",
     "Education",

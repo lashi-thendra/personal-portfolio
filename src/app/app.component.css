@@ -3,7 +3,22 @@ header{
     height: 10vh;
     /* background-color: blue; */
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
+
+}
+
+div{
+    border-radius: 50%;
+    position: absolute;
+    left: 50px;
+    font-size: 40px;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+}
+
+div:hover{
+    /* color: white; */
+    cursor: pointer;
 }
 
 main{
