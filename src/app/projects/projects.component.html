@@ -1,0 +1,7 @@
+<section class="animate__animated animate__fadeIn">
+    <app-project-item *ngFor="let proj of projects"
+        [url]="baseUrl+proj.url"
+        [text]="proj.discription"
+    ></app-project-item>
+
+</section>

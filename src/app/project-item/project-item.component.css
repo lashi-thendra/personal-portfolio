@@ -1,0 +1,35 @@
+.box{
+    height: 70vh;
+    width: 300px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(0, 18, 66);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box:hover{
+    box-shadow: 0 0 8px 5px rgb(227, 234, 255);
+    transform: scale(1.01);
+    cursor: pointer;
+}
+
+.picture{
+    width: 90%;
+    height: 45%;
+    /* background-color: aqua; */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.discription{
+    width: 90%;
+    height: 45%;
+    color: white;
+    /* background-color: aqua; */
+    text-align:center;
+}
+
