@@ -1,10 +1,14 @@
 <header>
   <div>
-    <a>&lt;lashi/&gt;</a>
+    <a routerLink="/">&lt;lashi/&gt;</a>
   </div>
   
-  <app-menu-item *ngFor="let title of titles" [displayText]="title"></app-menu-item>
+  <app-menu-item *ngFor="let title of titles" 
+  [displayText]="title.title"
+  [url]="title.url"
+  >
+  </app-menu-item>
 </header>
 <main>
-  <app-projects></app-projects>
+  <router-outlet></router-outlet>
 </main>

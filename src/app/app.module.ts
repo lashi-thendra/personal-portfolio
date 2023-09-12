@@ -7,6 +7,9 @@ import { MenuItemComponent } from './menu-item/menu-item.component';
 import { HomeComponent } from './home/home.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ProjectItemComponent } from './project-item/project-item.component';
+import { TechStackComponent } from './tech-stack/tech-stack.component';
+import { EducationComponent } from './education/education.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +17,10 @@ import { ProjectItemComponent } from './project-item/project-item.component';
     MenuItemComponent,
     HomeComponent,
     ProjectsComponent,
-    ProjectItemComponent
+    ProjectItemComponent,
+    TechStackComponent,
+    EducationComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

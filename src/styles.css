@@ -94,5 +94,6 @@ body{
     background-image: linear-gradient(rgb(4, 0, 56),rgb(0, 224, 231));
     background-repeat: no-repeat;
     height: 100vh;
+	overflow: hidden;
 }
 

@@ -12,6 +12,10 @@ p {
     transition: all 0.1s;
 }
 
+a{
+    text-decoration: none;
+}
+
 p:hover{
     color: black;
     background-color: rgb(4, 211, 211);

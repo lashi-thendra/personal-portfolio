@@ -8,4 +8,5 @@ import { Component, Input } from '@angular/core';
 })
 export class MenuItemComponent {
   @Input() displayText!:string;
+  @Input() url!:string;
 }

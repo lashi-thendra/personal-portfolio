@@ -9,9 +9,21 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = "Porfolio";
   titles  = [
-    "Projects",
-    "Teck Stack",
-    "Education",
-    "Contact Me"
+    {
+      title:"Projects",
+      url : "/projects"
+    },
+    {
+      title:"Tech Stack",
+      url : "/tech"
+    },
+    {
+      title:"Education",
+      url : "/education"
+    },
+    {
+      title:"Contact Me",
+      url : "/contact"
+    }
   ];
 }
