@@ -9,6 +9,7 @@ export class ProjectItemComponent {
   @Input() url!:string;
   @Input() text!:string;
   @Input() toLink!:string;
+  @Input() title!:string;
 
   onClick(){
     if(this.toLink === '') return;
