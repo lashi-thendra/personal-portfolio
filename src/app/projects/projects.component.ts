@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./projects.component.css']
 })
 export class ProjectsComponent {
-  baseUrl = "../../assets/";
+  baseUrl = "assets/";
   projects = [
     {
       url : "audplayer.png",
