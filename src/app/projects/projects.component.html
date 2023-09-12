@@ -2,6 +2,6 @@
     <app-project-item *ngFor="let proj of projects"
         [url]="baseUrl+proj.url"
         [text]="proj.discription"
+        [toLink]="proj.toLink"
     ></app-project-item>
-
 </section>

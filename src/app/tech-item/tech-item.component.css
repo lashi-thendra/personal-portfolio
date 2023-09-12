@@ -1,0 +1,28 @@
+.box{
+    height: 70vh;
+    width: 300px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(0, 18, 66);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.title{
+    height: 10%;
+    font-size: 30px;
+    color: rgb(0, 238, 255);
+}
+
+.points{
+    color:white;
+    padding-top: 10px;
+}
+
+
+
+
+

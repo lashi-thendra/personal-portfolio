@@ -1,1 +1,7 @@
-<p>tech-stack works!</p>
+<section class="animate__animated animate__fadeIn">
+    <app-tech-item 
+    *ngFor="let techItem of techItems"
+    [title]="techItem.title"
+    [techList]="techItem.techList"
+    ></app-tech-item>
+</section>

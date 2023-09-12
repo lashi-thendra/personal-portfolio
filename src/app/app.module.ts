@@ -9,7 +9,10 @@ import { ProjectsComponent } from './projects/projects.component';
 import { ProjectItemComponent } from './project-item/project-item.component';
 import { TechStackComponent } from './tech-stack/tech-stack.component';
 import { EducationComponent } from './education/education.component';
-import { ContactComponent } from './contact/contact.component';
+import { TechItemComponent } from './tech-item/tech-item.component';
+import { IonicModule } from '@ionic/angular';
+import { Contac2Component } from './contac2/contac2.component';
+
 
 @NgModule({
   declarations: [
@@ -20,13 +23,15 @@ import { ContactComponent } from './contact/contact.component';
     ProjectItemComponent,
     TechStackComponent,
     EducationComponent,
-    ContactComponent
+    TechItemComponent,
+    Contac2Component
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    IonicModule.forRoot()
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
 export class AppModule { }

@@ -1,0 +1,37 @@
+<div>
+    <section>
+        <form>
+          <label for="name">Name</label>
+          <input id="name" type="text" formControlName="name">
+  
+          <label for="email">Email</label>
+          <input id="email" type="email" formControlName="email">
+
+          <label for="msg">Message</label>
+          <input id="msg" type="text" formControlName="msg">
+
+          <button type="submit" class="primary">Submit</button>
+          <div id="notice">The 'Submit' button has not been implemented yet. Please use another method to contact.</div>
+        </form>
+        
+  </section>
+  
+  <section>
+    <div class="container">
+        <ion-icon src="../../assets/mail-outline.svg"></ion-icon>
+        <div class="link">lashithendrabandara@gmail.com</div>
+    </div>
+    <div class="container" (click)="goToLinked()">
+        <ion-icon src="../../assets/logo-linkedin.svg"></ion-icon>
+        <div class="link">linkedin.com/in/lashithendra</div>
+    </div>
+    <div class="container" (click)="goToGithub()">
+        <ion-icon src="../../assets/logo-github.svg"></ion-icon>
+        <div class="link">github.com/lashi-thendra</div>
+    </div>
+  </section>
+  
+</div>
+
+
+`

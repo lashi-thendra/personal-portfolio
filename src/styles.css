@@ -91,9 +91,10 @@ table {
 }
 
 body{
-    background-image: linear-gradient(rgb(4, 0, 56),rgb(0, 224, 231));
+    background-image: linear-gradient(rgb(4, 0, 56),rgb(0, 224, 231)) !important;
+	/* background-image: url(./assets/audplayer.png); */
     background-repeat: no-repeat;
-    height: 100vh;
-	overflow: hidden;
+    height: 100vh !important;
+	overflow: hidden !important;
 }
 

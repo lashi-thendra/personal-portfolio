@@ -18,10 +18,6 @@ export class AppComponent {
       url : "/tech"
     },
     {
-      title:"Education",
-      url : "/education"
-    },
-    {
       title:"Contact Me",
       url : "/contact"
     }
