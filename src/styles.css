@@ -95,6 +95,7 @@ body{
 	/* background-image: url(./assets/audplayer.png); */
     background-repeat: no-repeat;
     height: 100vh !important;
-	overflow: hidden !important;
+	overflow-x: auto !important;
+	overflow-y: hidden !important;
 }
 

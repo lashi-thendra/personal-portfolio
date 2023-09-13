@@ -8,6 +8,12 @@
     background-position: right bottom;
 }
 
+@media (min-width: 1080px) {
+    #img{
+        background-image: url(../../assets/img.png);
+    }
+}
+
 #tube{
     position: absolute;
     height: 250px;

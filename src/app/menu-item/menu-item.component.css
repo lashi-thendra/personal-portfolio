@@ -17,15 +17,15 @@ a{
 }
 
 p:hover{
-    color: black;
-    background-color: rgb(4, 211, 211);
+    color: rgb(0, 51, 117);
+    /* background-color: rgb(4, 211, 211);
     box-shadow: 0 0 10px 5px #ffffff; 
-    cursor: pointer;
+    cursor: pointer; */
 }
 
 p:active{
     color: black;
-    background-color: #025e88;
-    box-shadow: 0 0 8px 3px #ffffff; 
+    /* background-color: #025e88;
+    box-shadow: 0 0 8px 3px #ffffff;  */
     
 }
