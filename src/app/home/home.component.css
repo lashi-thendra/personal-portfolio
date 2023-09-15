@@ -6,19 +6,16 @@
     width: 100vw;
     background-size: contain;
     background-position: right bottom;
+    position: relative;
 }
 
-@media (min-width: 1080px) {
-    #img{
-        background-image: url(../../assets/img.png);
-    }
-}
+
 
 #tube{
     position: absolute;
     height: 250px;
     width: 250px;
-    top: 80px;
+    bottom: 300px;
     right: 350px;
     background-image: url(../../assets/float.png);
     background-repeat: no-repeat;
@@ -53,7 +50,7 @@ section{
 
 section > div:first-child{
     color: white;
-    font-size: 50px;
+    font-size: 20px;
     padding: 10px;
 }
 
@@ -72,4 +69,45 @@ section > div:nth-child(2){
     font-family: 'Inter', sans-serif;
     font-family: 'Philosopher', sans-serif;
     font-size: 50px;
+}
+
+@media (min-width: 1400px) {
+    #img{
+        background-image: url(../../assets/img2.png);
+    }
+    #tube{
+        display:none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    section{
+        /* background-color: yellow; */
+        position: absolute;
+        top: 50px;
+        left:10px;
+        height: 10vh;
+        width: 100vw;
+    }
+    section > div:first-child{
+        color: white;
+        font-size: 30px;
+        padding: 10px;
+    }
+    
+    section > div > span {
+        font-size: 20px;
+    }
+    
+    section > div:nth-child(2){
+        color: rgb(0, 0, 0);
+        font-size: 50px;
+        font-weight: 900;
+        padding: 10px;
+    }
+    #tube{
+        right: 200px;
+        bottom: 200px;
+        width: 20vw;
+    }
 }

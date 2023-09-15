@@ -7,3 +7,10 @@ section{
     align-items: center;
     padding: 30px;
 }
+
+@media screen and (max-width:480px) {
+    section{
+        flex-direction: column;
+        height: fit-content;
+    }
+}

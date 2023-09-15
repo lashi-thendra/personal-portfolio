@@ -90,3 +90,18 @@ ion-icon{
     line-height: 50px;
     margin-left: 10px;
 }
+
+@media screen and (max-width:480px) {
+    section:first-child{
+        display: none;
+    }
+    section:nth-child(2){
+        width: 100vh;
+    }
+    .container{
+        justify-content: center;
+    }
+    .container>div{
+        width: fit-content;
+    }
+}

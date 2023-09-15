@@ -16,7 +16,7 @@ a:hover{
 }
 
 div{
-    border-radius: 50%;
+    /* border-radius: 50%; */
     position: absolute;
     left: 50px;
     top: 25px;
@@ -36,5 +36,16 @@ main{
     height: 90vh;
     width: 100vw;
     position: relative;
+}
+
+@media screen and (max-width:480px) {
+    main{
+        overflow-x: scroll;
+    }
+    div{
+        font-size: 25px;
+        top: 30px;
+        left:5px;
+    }
 }
 

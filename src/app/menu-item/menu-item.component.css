@@ -29,3 +29,13 @@ p:active{
     box-shadow: 0 0 8px 3px #ffffff;  */
     
 }
+
+@media screen and (max-width:480px) {
+    a{
+        width: fit-content !important;
+    }
+    p{
+        font-size: 12px;
+        width: fit-content !important;
+    }
+}

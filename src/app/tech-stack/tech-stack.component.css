@@ -8,3 +8,11 @@ section{
     grid-row: auto;
     padding: 30px;
 }
+
+@media screen and (max-width: 480px) {
+    section{
+        flex-direction: column;
+        height: fit-content;
+        /* border: 1px solid black; */
+    }
+}

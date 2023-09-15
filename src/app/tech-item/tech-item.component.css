@@ -1,5 +1,6 @@
 .box{
-    height: 70vh;
+    height: fit-content;
+    min-height: 80vh;
     width: 300px;
     border: 1px solid rgb(255, 255, 255);
     background-color: rgb(0, 18, 66);
@@ -9,6 +10,8 @@
     justify-content: flex-start;
     align-items: center;
     padding-top: 20px;
+    flex-shrink: 0;
+    margin-top: 10px;
 }
 
 .title{
@@ -23,6 +26,12 @@
 }
 
 
+@media screen and (max-width: 480px) {
+    .box{
+        padding-top: 40px;
+        height: fit-content !important;
 
+    }
+}
 
 
