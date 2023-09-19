@@ -104,4 +104,8 @@ ion-icon{
     .container>div{
         width: fit-content;
     }
+    .link{
+        font-size: 15px;
+        /* background-color: gray; */
+    }
 }
